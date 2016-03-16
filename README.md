@@ -8,6 +8,18 @@ ArcGIS Exploded Tiles is the tile format used by ArcGIS 9.3.1 and before.
 
 This library is a reader for ArcGIS's exploded tiles.
 
+## See Also
+[tiler-xyz](https://github.com/FuZhenn/tiler-xyz):
+a nodejs map tile file reader coordinating by X,Y,Z
+
+[tiler-mbtiles](https://github.com/FuZhenn/tiler-mbtiles):
+a nodejs map tile reader for mapbox mbtiles format.
+
+[tiler-arcgis-xyz](https://github.com/FuZhenn/tiler-arcgis-xyz):
+a nodejs map tile reader for exploded tiles by ESRI ArcGIS
+
+[tiler-arcgis-compact](https://github.com/FuZhenn/tiler-arcgis-compact):
+a nodejs map tile reader for compact tiles by ESRI ArcGIS
 
 ## Install
 
