@@ -20,8 +20,8 @@ function tiler(root, ext) {
  *  data         : {Buffer}
  * }
  * @param {Number} x - tile x coordinate.
- * @param {Number} x - tile x coordinate.
- * @param {Number} x - tile x coordinate.
+ * @param {Number} y - tile y coordinate.
+ * @param {Number} z - tile z coordinate.
  * @param {Function(error, tile)} callback - tile x coordinate.
  * @return  {Object} tile data.
  */
@@ -48,13 +48,13 @@ tiler.prototype.getTile=function(x,y,z, callback) {
 tiler.prototype.getTilePath=function(x,y,z) {
     function appendZeros(n) {
         var result = '';
-		for (var i = 0, len = n.length(); i < 8 - len; i++) {
+		for (var i = 0, len = n.length; i < 8 - len; i++) {
 			result += '0';
 		}
 		result += n;
 		return result;
     }
-    var zFolder = "L" + (z.length() == 1) ? "0" + z : z;
+    var zFolder = "L" + ((z.toString().length == 1) ? "0" + z : z);
     var xFolder = appendZeros(parseInt(x,10).toString(16));	
     var yFolder = appendZeros(parseInt(y,10).toString(16));
 	return this.root
