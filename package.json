@@ -1,6 +1,6 @@
 {
   "name": "tiler-arcgis-file",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A nodejs map tile reader for exploded tiles storage format by ESRI ArcGIS ",
   "license": "MIT",
   "repository": {
