@@ -1,11 +1,11 @@
 {
-  "name": "tiler-arcgis-xyz",
+  "name": "tiler-arcgis-file",
   "version": "0.1.0",
-  "description": "A map tile reader by XYZ for exploded tiles of ESRI ArcGIS",
+  "description": "A nodejs map tile reader for exploded tiles storage format by ESRI ArcGIS ",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FuZhenn/tiler-arcgis-xyz"
+    "url": "https://github.com/FuZhenn/tiler-arcgis-file"
   },
   "main": "index.js",
   "scripts": {
