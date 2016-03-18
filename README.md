@@ -18,7 +18,7 @@ a nodejs map tile reader for compact tiles by ESRI ArcGIS 10.0-10.2
 ## Install
 
 ```bash
-npm install tiler-arcgis-xyz
+npm install tiler-arcgis-file
 ```
 
 ## Usage
