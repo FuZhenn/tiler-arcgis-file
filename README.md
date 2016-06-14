@@ -1,5 +1,5 @@
 # tiler-arcgis-file
-[![Circle CI](https://circleci.com/gh/FuZhenn/tiler-arcgis-file.svg?style=svg)](https://circleci.com/gh/FuZhenn/tiler-arcgis-file)
+[![Circle CI](https://circleci.com/gh/fuzhenn/tiler-arcgis-file.svg?style=svg)](https://circleci.com/gh/fuzhenn/tiler-arcgis-file)
 
 A map tile reader by XYZ for exploded tiles of ESRI ArcGIS
 
